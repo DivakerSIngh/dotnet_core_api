@@ -13,7 +13,7 @@ https://www.learnentityframeworkcore.com/walkthroughs/existing-database
 
     and then use dotnet restore command
 
-
+ 
 4. create Entity folder
 5. create dbcontext file command is 
 dotnet ef dbcontext scaffold "Server=localhost\;Database=TaskTracking;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -d -o Entity -c "DBContext"
